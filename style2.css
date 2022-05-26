@@ -1,0 +1,14 @@
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+thead,tbody>tr{
+    display: flex;
+}
+th, td{
+    display: flex;
+    width: 255px;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    justify-content: center;
+}

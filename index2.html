@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel TO JS</title>
+    <link rel="stylesheet" href="style2.css">
+    <script type = "text/javascript" src="script2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.5/xlsx.min.js"></script>
+</head>
+<body>
+    
+    <h1>Upload an excel file to display in HTML Table</h1>
+    <!-- Input element to upload an excel file -->
+    <input type="file" id="file_upload" />
+    <button onclick="upload()">Upload</button>  
+    <br><br>
+    <!-- table to display the excel data -->
+    <div id="body"></div>
+   
+</body>
+</html>
