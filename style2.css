@@ -5,6 +5,9 @@ table{
 thead,tbody>tr{
     display: flex;
 }
+th{
+    background-color: aqua;
+}
 th, td{
     display: flex;
     width: 255px;
